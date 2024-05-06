@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+h5 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial;
+  font-weight: normal;
+}
+
+h1 {
+  color: rgb(244, 190, 10);
+  font-size: 62px;
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    top: 35%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+    top: 32%;
+  }
+}
+
+   nav {
+    margin: 20px; /* Обнуляем значение отступов */
+    padding: 10px; /* Значение полей */
+   }
+   ul{
+    margin-right: 0px;
+   }
+   ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 40px; /* Отступ слева */
+   
+   }
+   li{
+   padding: 0px;
+   }
+
+
+#mainmenu {
+    background: rgb(244, 190, 10, 1);
+    position: relative;
+    overflow: hidden;
+    height: 70px;
+    margin: -16px ;
+    margin-right: 0px;
+    padding-bottom: 1%;
+    
+}
+#mainmenu ul {
+  
+    list-style: none;
+    margin: -80px;
+    padding: 0;
+    position: relative;
+    left: 55%;
+    float: left;
+    font-family:Arial ;
+    height:20px;
+    
+}
+    h3{
+    color: black;
+    
+}
+
+a{
+  text-decoration: none;
+}
+
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height:   20px;
+    
+    
+}
+
+h2{
+color:  rgb(244, 190, 10, 1);
+font-family: Arial;
+font-weight: 900 ;
+font-size: 210%;
+margin-left: 12%;
+}
+h4{
+  color: black;
+  font-weight: normal;
+  font-family: Arial;
+  margin-left: 10%;
+  width: 705px;
+}
+
+
+#block{
+  background: black;
+  height: 10%;
+  
+}
+
+span{
+  color: aliceblue;
+  font-size: large;
+  font-family: Arial;
+
+}
